@@ -14,7 +14,9 @@ Follow instructuions provided at https://golang.org/doc/install/source.
 
 I chose to [bootstrap from a binary release][3] (1.15.1):
 
-    cd $HOME mkdir tmp wget https://golang.org/dl/go1.15.1.linux-ppc64le.tar.gz
+    cd $HOME
+    mkdir tmp
+    wget https://golang.org/dl/go1.15.1.linux-ppc64le.tar.gz
     tar xvzf go1.15.1.linux-ppc64le.tar.gz -C tmp/
 
 [Fetch Git repository][4]:
