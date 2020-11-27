@@ -64,6 +64,7 @@ You may also need to create the module tmp directory:
     export TF_VERSION='v0.12.20'
     go get github.com/hashicorp/terraform
     cd $HOME/go/src/github.com/hashicorp/terraform
+    git reset upstream/master --hard
     git checkout $TF_VERSION
     go install github.com/hashicorp/terraform
     terraform -v
@@ -74,6 +75,7 @@ You may also need to create the module tmp directory:
     export PROVIDER_VERSION='v1.11.2'
     go get github.com/IBM-Cloud/terraform-provider-ibm
     cd $HOME/go/src/github.com/IBM-Cloud/terraform-provider-ibm
+    git reset upstream/master --hard
     git checkout $PROVIDER_VERSION
     go install github.com/IBM-Cloud/terraform-provider-ibm
     cp $HOME/go/bin/terraform-provider-ibm /var/tmp/ansible/ibmcloud/terraform-provider-ibm_$PROVIDER_VERSION
