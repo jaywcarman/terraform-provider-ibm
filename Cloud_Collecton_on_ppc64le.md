@@ -72,7 +72,7 @@ You may also need to create the module tmp directory:
 
 ## Compile IBM Cloud Terraform provider from source:
 
-    export PROVIDER_VERSION='v1.11.2'
+    export PROVIDER_VERSION='v1.15.0'
     go get github.com/IBM-Cloud/terraform-provider-ibm
     cd $HOME/go/src/github.com/IBM-Cloud/terraform-provider-ibm
     git reset upstream/master --hard
